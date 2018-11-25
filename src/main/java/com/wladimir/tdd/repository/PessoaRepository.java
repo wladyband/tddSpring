@@ -10,5 +10,7 @@ public interface PessoaRepository  {
 
 	Optional<Pessoa> findByCPF(String cpf);
 
+	Optional<Pessoa> findByTelefoneDddAndTelefoneNumero(String ddd, String numero);
+
 
 }
